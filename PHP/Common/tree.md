@@ -117,3 +117,4 @@ function getTree($list, $pk = 'id', $pid = 'parent', $rank = 'rank', $init = 0, 
 >	{"id": "6","name": "B.1","parent": "2","rank": "2"}
 >]
 >```
+
