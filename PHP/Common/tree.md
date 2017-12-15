@@ -21,8 +21,8 @@ $list = [
 ### <a name="makeTree">子集分类</a> ###
 ```php
 /**
- * 无线及分类 子集
- * @param $list         数据
+ * 无线级分类 子级
+ * @param $list         数据
  * @param string $pk    主键字段
  * @param string $pid   关联字段
  * @param string $child 子集名称
@@ -82,8 +82,8 @@ function makeTree($list, $pk = 'id', $pid = 'parent', $_child = '_child', $init 
 ### <a name="getTree">同级分类</a> ###
 ```php
 /**
- * 无线及分类 同级集
- * @param $list         数据
+ * 无线级分类 同级
+ * @param $list         数据
  * @param string $pk    主键字段
  * @param string $pid   关联字段
  * @param string $rank  等级字段
