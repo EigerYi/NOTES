@@ -6,7 +6,7 @@
 
 ### 数组
 
-```
+```php
 $list = [
     ['id' => 1, 'name' => 'A', 'parent' => 0],
     ['id' => 2, 'name' => 'B', 'parent' => 0],
@@ -19,7 +19,7 @@ $list = [
 
 
 ### <a name="makeTree">子集分类</a> ###
-```
+```php
 /**
  * 无线及分类 子集
  * @param $list         数据
@@ -49,7 +49,7 @@ function makeTree($list, $pk = 'id', $pid = 'parent', $_child = '_child', $init 
 }
 ```
 >调用后生成数据
->```
+>```js
 >JSON格式
 >[
 >	{
@@ -80,7 +80,7 @@ function makeTree($list, $pk = 'id', $pid = 'parent', $_child = '_child', $init 
 >```
 
 ### <a name="getTree">同级分类</a> ###
-```
+```php
 /**
  * 无线及分类 同级集
  * @param $list         数据
@@ -106,7 +106,7 @@ function getTree($list, $pk = 'id', $pid = 'parent', $rank = 'rank', $init = 0, 
 }
 ```
 >调用后生成数据
->```
+>```js
 >JSON格式
 >[
 >	{"id": "1","name": "A","parent": "0","rank": "1"},
