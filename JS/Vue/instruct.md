@@ -1,24 +1,24 @@
 # Vue常用指令和属性
 ## 指令
-* ####v-bind 		绑定
+* #### v-bind 		绑定
 ```js
 <b v-bind:title="msg">{{ msg }}</b>
 简写   <h1 :title="msg">{{ msg }}</h1>
 ```
-* ####v-if			真假判断
-* ####v-for			循环
-* ####v-on:onclick	绑定点击事件
+* #### v-if			真假判断
+* #### v-for			循环
+* #### v-on:onclick	绑定点击事件
 ```js
 <b v-on:click="clickBtn">点击</b>
 简写  <b @click="clickBtn">点击</b>
 ```
-* ####v-model		双向绑定
-* ####v-once		加载一次
-* ####v-html			渲染html标签
+* #### v-model		双向绑定
+* #### v-once		加载一次
+* #### v-html			渲染html标签
 
 ## 常用属性
-* ####data
-* ####watch			监听属性
+* #### data
+* #### watch			监听属性
 ```js
 var vm = new Vue({
 	  el: '#demo',
@@ -37,7 +37,7 @@ var vm = new Vue({
 	  }
 })
 ```
-* ####computed		计算属性	带缓存
+* #### computed		计算属性	带缓存
 ```js
 var vm = new Vue({
 	el: '#demo',
@@ -61,7 +61,7 @@ var vm = new Vue({
 	}
 })
 ```
-* ####methods		方法		无缓存
+* #### methods		方法		无缓存
 ```html
 <p>Reversed message: "{{ reversedMessage() }}"</p>
 ```
